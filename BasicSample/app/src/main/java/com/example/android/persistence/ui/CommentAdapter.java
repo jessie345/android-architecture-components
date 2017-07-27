@@ -71,7 +71,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.CommentV
                     return old.getId() == comment.getId()
                             && old.getPostedAt() == comment.getPostedAt()
                             && old.getProductId() == comment.getProductId()
-                            && Objects.equals(old.getText(), comment.getText());
+                            && Objects.equals(old.getName(), comment.getName());
                 }
             });
             mCommentList = comments;

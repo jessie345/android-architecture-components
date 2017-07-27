@@ -57,7 +57,7 @@ public class CommentEntity implements Comment {
     }
 
     @Override
-    public String getText() {
+    public String getName() {
         return text;
     }
 
@@ -80,7 +80,7 @@ public class CommentEntity implements Comment {
     public CommentEntity(Comment comment) {
         id = comment.getId();
         productId = comment.getProductId();
-        text = comment.getText();
+        text = comment.getName();
         postedAt = comment.getPostedAt();
     }
 }

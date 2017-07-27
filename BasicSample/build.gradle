@@ -49,4 +49,5 @@ ext {
     espressoVersion = "2.2.2"
     archLifecycleVersion = "1.0.0-alpha1"
     archRoomVersion = "1.0.0-alpha1"
+    archRxJavaVersion = "1.0.0-alpha1"
 }
